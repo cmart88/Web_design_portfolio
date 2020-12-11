@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">My Portfolio Survey Form</h1>
+    <p id="description">Let me know what you think about my portfilio.</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br>
+        <label for="email" id="email-label">Email</label>
+<input type="email" name="email" id="email" placeholder="Enter Your Email" required><br>
+<label for="number" id="number-label">Age (optional)</label>
+<input type="number" name="number" id="number" min="10" max="100" placeholder="Age">
+<p>How did you hear about my page?</p>
+<select name="role" id="dropdown">
+<option value="From me"> From me</option>
+<option value="Networking Event"> Networking event </option>
+<option value="Facebook">Facebook</option>
+<option value="Twitter"> Twitter</option>
+</select>
+<div class="radio">
+    <p> How likely are you to recommend my page to a friend?</p>
+<label>
+<input type="radio" name="recommend" id="radio" value="very likely" checked>very likely</label>
+<label>
+<input type="radio" name="recommend" id="radio" value="likely">likely</label>
+<label>
+<input type="radio" name="recommend" id="radio" value="unlikely">unlikely</label>
+   </div>
+   <div class="checkbox">
+    <p>What could i improve on my page</p>  
+    
+           <input type="checkbox" value="Overall Design" name="improve" >Overall Design <br>
+           <input type="checkbox" value="Projects" name="improve">Projects<br>
+           <input type="checkbox" value="Form Page" name="improve">Survey Form <br>
+           <input type="checkbox" value="Contact page" name="improve">Contact page<br>
+   </div>
+   <p>Any Additional Comments</p>
+   <textarea name="Comments" id="Comments" cols="30" rows="10" placeholder="Leave your comments here....." fixed></textarea><br>
+   <button id="Submit" name="Submit">Submit</button>
+</form>
+</body>
+</html>   

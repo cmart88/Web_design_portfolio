@@ -1,0 +1,11 @@
+nav {
+	background-color: #40434e;
+	/* color: white; */
+	font-family: 'Castoro', serif;
+}
+.nav-link {
+	color: white;
+}
+#content {
+	margin-top: 80px;
+}
