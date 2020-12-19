@@ -1,191 +1,40 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol,
-ul {
-	list-style: none;
-}
-blockquote,
-q {
-	quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-:root {
-	background-color: unset;
-}
-
-body {
-	text-align: center;
+	background-color: #024f4a;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-	background-color: #27425c;
-	color: aliceblue;
-	background-size: cover;
-	height: 300px;
-	text-align: center;
-	font-size: 49px;
-	font-weight: 400;
+nav {
+	color: #c2c6a7;
+	font-size: 2rem;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.subhead {
-	margin-top: 20px;
-	font-size: 80%;
+#nav-link {
+	font-size: 2rem;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #c2c6a7;
 }
-#user {
-	padding: 10px;
-	margin: auto;
-	height: 60px;
-	width: 110px;
-	text-align: center;
-	font-size: 18px;
-	color: aliceblue;
-	background-size: auto;
-	background-color: #27425c;
-	border-radius: 12%;
+#title span {
+	color: #c2c6a7;
 }
-a {
-	color: #000;
+#title h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 5rem;
+	font-weight: 700;
 }
 
-.footer {
-	background: #000;
+#navbarNavDropdown {
+	background-color: #024f4a;
+	background-blend-mode: color-burn;
+}
+nav #nav-link:hover {
+	color: aliceblue;
+}
+#pag {
+	background-color: #c2c6a7;
 }
 img {
-	width: 30%;
+	border-radius: 10%;
 }
-#welcome {
-	font-family: 'Castoro', serif;
-}
-
-nav {
-	background-color: #40434e;
-	/* color: white; */
-	font-family: 'Castoro', serif;
-}
-.nav-link {
-	color: white;
-}
-title {
-	margin-top: 100px;
-	display: inline-block;
-	color: white;
+#pag {
+	border-radius: 10%;
 }
